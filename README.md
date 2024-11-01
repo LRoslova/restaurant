@@ -1,2 +1,2 @@
-# restaurant
+# Restaurant
 мастер-класс по верстке сайта
