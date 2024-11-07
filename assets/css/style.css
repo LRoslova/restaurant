@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 h1, h2, h3, h4, p { 
     margin: 0;
     padding: 0;
@@ -58,7 +60,6 @@ header {
 .header-content__last a:last-of-type:hover {
     background-color: #FF8A00;
 }
-
 
 nav a {
     text-decoration: none;
@@ -119,10 +120,6 @@ main {
     color: #5C4529;
     margin-bottom: 77px;
 }
-/* .main-content__buttons {
-    display: flex;
-    justify-content: space-between;
-} */
 
 .main-content__buttons a {
     border-radius: 162px;
@@ -137,6 +134,7 @@ main {
     padding: 17px 55px;
     transition: transform .4s ease;
 }
+
 .main-content__buttons a:first-of-type {
     background-color:#FF8A00;
     margin-right: 23px;
@@ -147,6 +145,64 @@ main {
 .main-content__buttons a:hover {
     transform: scale(1.05);
 }
+
+
+
+/* WELCOME */
+
+.welcome {
+    background-color: #ECF9F0;
+    padding-top: 147px;
+    padding-bottom: 132px;
+}
+
+.welcome-inner { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-inner h2 {
+    color:#311F09;
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    margin-bottom: 60px;
+}
+
+.welcome-inner h2 span {
+    color:#FF8A00;
+}
+
+.welcome-inner p {
+    color:#5C4529;
+    line-height: 40px;
+    margin-bottom: 122px;
+}
+
+.welcome-inner a {
+    padding: 17px 45px;
+    border-radius: 162px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    background-color:#FF8A00;
+    display: inline-block;
+    transition: transform .4s ease;
+}
+
+.welcome-inner a:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
 
 
 
